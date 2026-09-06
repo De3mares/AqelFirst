@@ -1,11 +1,12 @@
-# fly.toml app configuration file generated for aqelfirst on 2026-09-06T19:19:44Z
+# fly.toml app configuration file generated for aqelfirst on 2026-09-06T19:33:36Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'aqelfirst'
 primary_region = 'iad'
-console_command = 'python3 bot.py'
+console_command = 'python3 main.py'
+swap_size_mb = 1024
 
 [build]
   builder = 'paketobuildpacks/builder:base'
